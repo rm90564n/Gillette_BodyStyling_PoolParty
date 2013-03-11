@@ -131,8 +131,35 @@ body {
 	position: relative;
 	width: 900px;
 	height: 650px;
-	background: url(../img/pool.gif) center center no-repeat;
+	background: url(../img/bkg.jpg) center center no-repeat;
 	overflow: hidden;
+}
+.fire {
+	width: 427px;
+	height: 175px; 
+	position: relative; 
+	top: 224px; 
+	left: 715px;
+	background: url(../img/fire.gif) center center no-repeat;
+	z-index: 3;
+}
+.pool {
+	width: 696px;
+	height: 144px; 
+	position: relative; 
+	top: 393px; 
+	left: -263px;
+	background: url(../img/pool.gif) center center no-repeat;
+	z-index: 3;
+}
+.floor {
+	width: 127px;
+	height: 179px; 
+	position: relative; 
+	top: 290px; 
+	left: 429px;
+	background: url(../img/floor.gif) center center no-repeat;
+	z-index: 3;
 }
 
 audio {
