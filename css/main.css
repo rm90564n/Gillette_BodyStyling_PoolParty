@@ -128,11 +128,38 @@ body {
 #wrapper {
 	display: none;
 	margin: 0 auto;
-	position: relative;
 	width: 900px;
 	height: 650px;
-	background: url(../img/pool.gif) center center no-repeat;
+	position: relative;
+	background: url(../img/bkg.jpg) center center no-repeat;
 	overflow: hidden;
+}
+.animeGif {
+	/* Animated Gifs */
+}
+#fire {
+	background: url(../img/fire.gif) no-repeat;	
+	width: 427px;
+	height: 175px;
+	position: absolute;
+	top: 226px;
+	left: 603px;
+}
+#pool {
+	background: url(../img/pool.gif) no-repeat;
+	width: 696px;
+	height: 144px;
+	position: absolute;
+	top: 426px;
+	left: 54px;			
+}
+#floor {
+	background: url(../img/floor.gif) no-repeat;
+	width: 127px;
+	height: 179px;
+	position: absolute;
+	top: 473px;
+	left: 818px;
 }
 
 audio {
