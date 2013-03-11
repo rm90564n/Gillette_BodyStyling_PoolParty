@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Gillette Parallax Video Test</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <div id="wrapper">
+
+            <audio autoplay loop controls>
+                <source src="audio/music.mp3" type="audio/mpeg"/>
+                <source src="audio/ambience.ogg" type="audio/ogg"/>
+                Your browser does not support the audio element.
+            </audio> 
+
+            <!-- Girl 2 -->
+            <div id="object1_flirt" class="object flirt">
+                <img src="img/girl1.png" />
+            </div>
+
+            <!-- Girl 2 -->
+            <div id="object2_flirt" class="object flirt">
+                <video id="video2_flirt" crossorigin loop>
+                    <source src="video/girl2_flirt.ogg" type="video/ogg">
+                    <source src="video/girl2_flirt.webm" type="video/webm" />
+                    <source src="video/girl2_flirt.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="object2_question" class="object question">
+                <video id="video2_question" crossorigin>
+                    <source src="video/girl2_question.mp4" type="video/mp4" />
+                    <source src="video/girl2_question.ogg" type="video/ogg">
+                    <source src="video/girl2_question.webm" type="video/webm" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="object2_more" class="more">
+                <ul>
+                    <li>See what&rsquo;s she's talking about</li>
+                    <li>Talk to someone else</li>
+                </ul>
+            </div>
+            <div id="object2_yes" class="object yes">
+                <video id="video2_yes" crossorigin>
+                    <source src="video/girl2_yes.ogg" type="video/ogg">
+                    <source src="video/girl2_yes.webm" type="video/webm" />
+                    <source src="video/girl2_yes.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div id="object2_cta" class="object cta">
+                <img src="img/cta2_fpo.jpg" />
+                <div class="return">Or return to the party</div>
+            </div>
+
+            <!-- Girl 3 -->
+            <div id="object3_flirt" class="object flirt">
+                <img src="img/girl3.png" />
+            </div>
+
+
+            <div id="btn_arrow_left" class="btn_arrow"></div>
+            <div id="btn_arrow_right" class="btn_arrow"></div>
+            <div id="btn_close"></div>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.min.js"></script>
+        <script src="js/jquery.backgroundpos.min.js"></script>
+        <script src="js/jquery-seeThru.0.9.9.min.js"></script>
+        <script src="js/jquery.transit.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

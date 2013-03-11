@@ -1,0 +1,234 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+	background-color: #000;
+	height: 100%;
+}
+#wrapper {
+	display: none;
+	margin: 0 auto;
+	position: relative;
+	width: 900px;
+	height: 650px;
+	background: url(../img/pool.gif) center center no-repeat;
+	overflow: hidden;
+}
+
+audio {
+	position: absolute;
+	z-index: 3;
+	bottom: 1%;
+	right: 1%;
+}
+.object {
+	position: absolute;
+}
+.flirt {
+	display: block;
+	cursor: pointer;
+}
+.question {
+	display: none;
+	top: -30%;
+	left: 0%;
+}
+.more {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 80px;
+	right: 100px;
+	background: url(../img/callout.png) no-repeat bottom left;
+	text-transform: uppercase;
+}
+.more ul {
+	margin: 0;
+	padding: 0 0 25px 15px;
+	list-style-type: none;
+}
+.more li {
+	padding: 0 2px 0 15px;
+	background: url(../img/bullet.png) no-repeat center left;
+	font-size: 0.9em;
+	color: #fff;
+	cursor: pointer;
+}
+.more li:hover {
+	color: #346291;
+}
+.yes {
+	display: none;
+	top: -30%;
+}
+.cta {
+	display: none;
+	position: absolute;
+	cursor: pointer;
+}
+.cta .return {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 0.8em;
+	color: #fff;
+}
+#object2_cta {
+	top: 80px;
+	right: 130px;
+}
+
+.btn_arrow {
+	position: absolute;
+	top: 300px;
+	width: 31px;
+	height: 52px;
+	background: url(../img/btn_arrows.png) no-repeat;
+	cursor: pointer;
+}
+#btn_arrow_left {
+	background-position: 0 0;
+	left: 30px;
+}
+#btn_arrow_right {
+	background-position: -31px 0;
+	right: 30px;
+}
+#btn_arrow_left:hover {
+	background-position: 0 -52px;
+}
+#btn_arrow_right:hover {
+	background-position: -31px -52px;
+}
+#btn_close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/btn_close.png) no-repeat;
+	cursor: pointer;
+}
+#btn_close:hover {
+	background-position: 0 -30px;
+}
+
